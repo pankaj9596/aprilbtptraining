@@ -35,7 +35,7 @@ context master {
             businesspartner : Association to one master.businesspartner
                                   on businesspartner.ADDRESS_GUID = $self;
     }
-
+    
     entity product {
         key NODE_KEY       : commons.Guid;
             PRODUCT_ID     : String(32);
